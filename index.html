@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <!--==================== UNICONS 图标====================-->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css" />
+  <!--==================== SWIPER CSS ====================-->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+  <!--==================== CSS ====================-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/img/favicon_io/favicon-32x32.png" type="image/x-icon">
+  <title>Thanh Truc Data</title>
+</head>
+
+<body>
+  <!--==================== HEADER ====================-->
+  <header class="header scroll-header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">THANH TRUC</a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list grid">
+          <li class="nav__item">
+            <a href="#home" class="nav__link">
+              <i class="uil uil-estate nav__icon"></i>
+              <p i18n="home">Home</p>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#portfolio" class="nav__link">
+              <i class="uil uil-scenery nav__icon"></i>
+              <p i18n="portfolio">Portfolio</p>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">
+              <i class="uil uil-message nav__icon"></i>
+              <p i18n="contact">Contact Me</p>
+            </a>
+          </li>
+        </ul>
+        <i class="uil uil-times nav__close" id="nav-close"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!--==================== MAIN ====================-->
+  <main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__content grid">
+          <div class="home__social">
+            <a href="https://www.linkedin.com/in/truc-dlt-data-driven/" target="_blank" class="home__social-icon">
+              <i class="uil uil-linkedin-alt"></i>
+              <path
+                d="M512 1024C229.222 1024 0 794.778 0 512S229.222 0 512 0s512 229.222 512 512-229.222 512-512 512z m259.149-568.883h-290.74a25.293 25.293 0 0 0-25.292 25.293l-0.026 63.206c0 13.952 11.315 25.293 25.267 25.293h177.024c13.978 0 25.293 11.315 25.293 25.267v12.646a75.853 75.853 0 0 1-75.853 75.853h-240.23a25.293 25.293 0 0 1-25.267-25.293V417.203a75.853 75.853 0 0 1 75.827-75.853h353.946a25.293 25.293 0 0 0 25.267-25.292l0.077-63.207a25.293 25.293 0 0 0-25.268-25.293H417.152a189.62 189.62 0 0 0-189.62 189.645V771.15c0 13.977 11.316 25.293 25.294 25.293h372.94a170.65 170.65 0 0 0 170.65-170.65V480.384a25.293 25.293 0 0 0-25.293-25.267z"
+                fill="hsl(250deg 69% 61%)" p-id="2758"></path>
+              </svg>
+            </a>
+            <a href="https://github.com/thanhtruchhh" target="_blank" class="home__social-icon">
+              <i class="uil uil-github-alt"></i>
+            </a>
+          </div>
+
+          <div class="home__img">
+            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+              <mask id="mask0" mask-type="alpha">
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+              </mask>
+              <g mask="url(#mask0)">
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                <image class="home__blob-img" x="0" y="-30" xlink:href="assets/img/cat.png" />
+              </g>
+            </svg>
+          </div>
+
+          <div class="home__data">
+            <h1 class="home__title" i18n="home__title">
+              Hi, I'm Truc
+            </h1>
+            <h3 class="home__subtitle" i18n="home__subtitle">
+              Data Analyst
+            </h3>
+            <p class="home__description" i18n="home__description">
+              As a naturally curious individual, I'm deeply passionate about the profound impact that data can have on
+              businesses.
+            </p>
+            <div class="home__buttons">
+              <a download="" href="assets/pdf/Duong Le Thanh Truc_Data Analyst.pdf" class="button button--flex">
+                <span i18n="download">Download CV</span><i class="uil uil-download-alt button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== PORTFOLIO ====================-->
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section__title" i18n="portfolio__title">Portfolio</h2>
+      <span class="section__subtitle" i18n="portfolio__subtitle">My personal projects</span>
+
+      <!-- Filter tab -->
+      <div class="portfolio__tabs">
+        <button class="portfolio__tab button--flex" data-filter="all">All</button>
+        <button class="portfolio__tab button--flex" data-filter="sql">SQL</button>
+        <button class="portfolio__tab button--flex" data-filter="powerbi">PowerBI</button>
+        <button class="portfolio__tab button--flex" data-filter="python">Python</button>
+      </div>
+
+      <!-- Repo cards -->
+      <div class="portfolio__container container grid">
+        <div class="portfolio_ sql python">
+          <h3 class="portfolio__title" i18n="portfolio3__title">
+            Google Analytics Data Analysis
+          </h3>
+          <p class="portfolio__description" i18n="portfolio3__description">
+            Gain insights from Google Analytics data with SQL and BigQuery analysis in this project.
+          </p>
+          <a href="https://github.com/thanhtruchhh/GA_Data_Analysis_With_SQL_BigQuery" target="_blank"
+            class="button button--flex button--small portfolio__button">
+            Explore
+            <i class="uil uil-arrow-right button__icon"></i>
+          </a>
+        </div>
+
+        <div class="portfolio_ powerbi">
+          <h3 class="portfolio__title" i18n="portfolio3__title">
+            Global Superstore Sales
+          </h3>
+          <p class="portfolio__description" i18n="portfolio3__description">
+            Design a Power BI dashboard that helps stakeholders access business insights to make informed decisions
+            regarding market expansion strategies.
+          </p>
+          <a href="https://github.com/thanhtruchhh/Global_Superstore_Sales" target="_blank"
+            class="button button--flex button--small portfolio__button">
+            Explore
+            <i class="uil uil-arrow-right button__icon"></i>
+          </a>
+        </div>
+
+        <div class="portfolio_ python">
+          <h3 class="portfolio__title" i18n="portfolio3__title">
+            Data Science Job Posting on Glassdoor
+          </h3>
+          <p class="portfolio__description" i18n="portfolio3__description">
+            Clean data, EDA, and get insights into the data scientist job market. 
+          </p>
+          <a href="https://github.com/thanhtruchhh/Glassdoor_Analysis" target="_blank"
+            class="button button--flex button--small portfolio__button">
+            Explore
+            <i class="uil uil-arrow-right button__icon"></i>
+          </a>
+        </div>
+        
+        <div class="portfolio_ sql">
+          <h3 class="portfolio__title" i18n="portfolio3__title">
+            AdventureWorks2019 Data Analysis
+          </h3>
+          <p class="portfolio__description" i18n="portfolio3__description">
+            Use SQL to explore AdventureWorks2019 dataset.
+          </p>
+          <a href="https://github.com/thanhtruchhh/AdventureWorks2019_Data_Analysis" target="_blank"
+            class="button button--flex button--small portfolio__button">
+            Explore
+            <i class="uil uil-arrow-right button__icon"></i>
+          </a>
+        </div>
+
+        <div class="portfolio_ sql">
+          <h3 class="portfolio__title" i18n="portfolio3__title">
+            App Store Analysis
+          </h3>
+          <p class="portfolio__description" i18n="portfolio3__description">
+            Analyzing Apple App Store data to uncover insights on ratings, pricing, and user preferences. 
+          </p>
+          <a href="https://github.com/thanhtruchhh/AppStore_Analysis_Using_SQL" target="_blank"
+            class="button button--flex button--small portfolio__button">
+            Explore
+            <i class="uil uil-arrow-right button__icon"></i>
+          </a>
+        </div>
+
+        <div class="portfolio_ python">
+          <h3 class="portfolio__title" i18n="portfolio3__title">
+            Churn Prediction
+          </h3>
+          <p class="portfolio__description" i18n="portfolio3__description">
+            Find behaviors of churned users and build the ML model for predicting them. 
+          </p>
+          <a href="https://github.com/thanhtruchhh/Churn_Prediction" target="_blank"
+            class="button button--flex button--small portfolio__button">
+            Explore
+            <i class="uil uil-arrow-right button__icon"></i>
+          </a>
+        </div>
+
+        <div class="portfolio_ python">
+          <h3 class="portfolio__title" i18n="portfolio3__title">
+            RFM Analysis Project
+          </h3>
+          <p class="portfolio__description" i18n="portfolio3__description">
+            Use the RFM model for customer segmentation, gather insights, and offer recommendations to the marketing
+            team within a retail company.
+          </p>
+          <a href="https://github.com/thanhtruchhh/RFM_Analysis" target="_blank"
+            class="button button--flex button--small portfolio__button">
+            Explore
+            <i class="uil uil-arrow-right button__icon"></i>
+          </a>
+        </div>
+
+        <div class="portfolio_ python">
+          <h3 class="portfolio__title" i18n="portfolio3__title">
+            Data Wrangling Practice
+          </h3>
+          <p class="portfolio__description" i18n="portfolio3__description">
+            Use pandas to calculate revenue from separate data sources.
+          </p>
+          <a href="https://github.com/thanhtruchhh/Data_Wrangling_Practice" target="_blank"
+            class="button button--flex button--small portfolio__button">
+            Explore
+            <i class="uil uil-arrow-right button__icon"></i>
+          </a>
+        </div>
+
+        <div class="portfolio_ sql">
+          <h3 class="portfolio__title" i18n="portfolio3__title">
+            8 Week SQL Challenge
+          </h3>
+          <p class="portfolio__description" i18n="portfolio3__description">
+            Solution for SQL case studies on 8weeksqlchallenge. 
+          </p>
+          <a href="https://github.com/thanhtruchhh/8_Week_SQL_Challenge" target="_blank"
+            class="button button--flex button--small portfolio__button">
+            Explore
+            <i class="uil uil-arrow-right button__icon"></i>
+          </a>
+        </div>
+      </div>
+      <!-- end -->
+    </section>
+
+    <!--==================== CONTACT ME ====================-->
+    <section class="contact section" id="contact">
+      <h2 class="section__title" i18n="contact__title">Contact me</h2>
+      <span class="section__subtitle" i18n="contact__subtitle">Get in touch</span>
+
+      <div class="contact__container container grid">
+        <div>
+          <div class="contact__information">
+            <i class="uil uil-linkedin-alt contact__icon"></i>
+
+            <div>
+              <h3 class="contact__title" i18n="email">LinkedIn</h3>
+              <a class="contact__subtitle" i18n=""
+                href="https://www.linkedin.com/in/truc-dlt-data-driven/">/truc-dlt-data-driven/</a>
+            </div>
+          </div>
+
+          <div>
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title" i18n="email">E-mail</h3>
+                <a class="contact__subtitle" i18n="email__address"
+                  href="mailto:duonglethanhtruc.work@gmail.com">duonglethanhtruc.work@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-map-marker contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title" i18n="location">Location</h3>
+                <span class="contact__subtitle" i18n="location__detail">District 10, Hồ Chí Minh City</span>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+  </main>
+
+  <!--==================== SCROLL TOP ====================-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up scrollup__icon"></i>
+  </a>
+  <!--==================== SWIPER JS ====================-->
+  <script src="assets/js/swiper-bundle.min.js"></script>
+
+  <!-- iconfont JS -->
+  <script src="assets/js/iconfont.js"></script>
+  <!-- jquery -->
+  <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="assets/js/jquery.i18n.min.js"></script>
+  <!--==================== MAIN JS ====================-->
+  <script src="assets/js/main.js"></script>
+
+  <!-- translate JS -->
+  <script src="assets/js/cn-en-translate.js"></script>
+</body>
+
+</html>
