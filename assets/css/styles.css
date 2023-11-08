@@ -1,11 +1,11 @@
-/*==================== GOOGLE FONTS 字体====================*/
+/*==================== GOOGLE FONTS ====================*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 /*==================== VARIABLES CSS ====================*/
 :root {
   --header-height: 3rem;
 
-  /*========== Colors 主题色彩==========*/
+  /*========== Colors ===========*/
   /* Change favorite color */
   --hue-color: 170;
   /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
@@ -280,12 +280,12 @@ img {
 }
 
 .home__blob {
-  width: 200px;
+  /* width: 200px; */
   fill: var(--first-color);
 }
 
 .home__blob-img {
-  width: 220px;
+  width: 100%;
 }
 
 .home__data {
@@ -475,14 +475,15 @@ img {
   font-weight: var(--font-medium);
 }
 
-.contact__subtitle,
-.contact__subtitle:link,
-.contact__subtitle:hover,
-.contact__subtitle:visited {
+.contact__subtitle {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--text-color);
   font-style: normal;
+}
+
+a.contact__subtitle:hover {
+  color: var(--first-color-alt)
 }
 
 .contact__content {
